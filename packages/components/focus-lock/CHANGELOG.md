@@ -1,5 +1,26 @@
 # Change Log
 
+## 2.1.0
+
+### Minor Changes
+
+- [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - To improve support
+  for the App Router, all components and hooks are exported with the
+  `"use client"` directive.
+
+## 2.0.17
+
+### Patch Changes
+
+- [`148c66bc6`](https://github.com/chakra-ui/chakra-ui/commit/148c66bc6df249230e29322747cda9a6e802e15f)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Upgrade
+  `focus-trap` package to fix regression with return focus and initial focus
+  ref.
+- Updated dependencies
+  [[`0bec820bd`](https://github.com/chakra-ui/chakra-ui/commit/0bec820bd1ece0c4ba9538394fe2897ff1043c87)]:
+  - @chakra-ui/dom-utils@2.1.0
+
 ## 2.0.16
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/provider",
-  "version": "2.2.4",
+  "version": "2.4.1",
   "description": "Theme and components agnostic ChakraProvider",
   "main": "src/index.ts",
   "files": [
@@ -48,10 +48,10 @@
     "url": "https://chakra-ui.netlify.app"
   },
   "devDependencies": {
-    "@emotion/react": "^11.11.0",
+    "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "clean-package": "2.2.0"
   },
   "scripts": {
@@ -64,13 +64,5 @@
     "postpack": "clean-package restore",
     "typedocs": "tsx ../../../scripts/generate-type-docs.ts"
   },
-  "clean-package": "../../../clean-package.config.json",
-  "tsup": {
-    "clean": true,
-    "target": "es2019",
-    "format": [
-      "cjs",
-      "esm"
-    ]
-  }
+  "clean-package": "../../../clean-package.config.json"
 }

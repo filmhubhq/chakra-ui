@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/theme",
-  "version": "3.1.1",
+  "version": "3.3.0",
   "description": "The default theme for chakra components",
   "keywords": [
     "theme",
@@ -50,11 +50,11 @@
     "postpack": "clean-package restore"
   },
   "tsup": {
-    "clean": true,
-    "target": "es2019",
     "format": [
       "cjs",
       "esm"
-    ]
+    ],
+    "target": "es2019",
+    "sourcemap": true
   }
 }

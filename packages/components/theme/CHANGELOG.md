@@ -1,5 +1,113 @@
 # Change Log
 
+## 3.3.0
+
+### Minor Changes
+
+- [`3aaf0c3b1`](https://github.com/chakra-ui/chakra-ui/commit/3aaf0c3b19c64cdae29ac1893d199049cc4133ed)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - **[POTENTIAL
+  BREAKING CHANGE]** Remove export defaults and favor of named exports.
+
+  ```diff
+  - import theme from "@chakra-ui/theme"
+  + import { theme } from "@chakra-ui/theme"
+  ```
+
+  ```diff
+  - import Icon from "@chakra-ui/icon"
+  + import { Icon } from "@chakra-ui/icon"
+  ```
+
+  ```diff
+  - import CSSReset from "@chakra-ui/css-reset"
+  + import { CSSReset } from "@chakra-ui/css-reset"
+  ```
+
+  ```diff
+  - import VisuallyHidden from "@chakra-ui/visually-hidden"
+  + import { VisuallyHidden } from "@chakra-ui/visually-hidden"
+  ```
+
+### Patch Changes
+
+- [#7936](https://github.com/chakra-ui/chakra-ui/pull/7936)
+  [`58e059d18`](https://github.com/chakra-ui/chakra-ui/commit/58e059d18da6620747f074f7efb9ec0fd695a314)
+  Thanks [@yukukotani](https://github.com/yukukotani)! - Remove "use client"
+  directive since they are pure JS packages.
+
+- [#7690](https://github.com/chakra-ui/chakra-ui/pull/7690)
+  [`6526e9be8`](https://github.com/chakra-ui/chakra-ui/commit/6526e9be8adce074cfbfca03bd765aff4eb8914a)
+  Thanks [@Vija02](https://github.com/Vija02)! - Fix issue where `zIndex` of
+  DrawerOverlay creates incorrect stacking order when multiple drawers are used.
+
+- Updated dependencies
+  [[`58e059d18`](https://github.com/chakra-ui/chakra-ui/commit/58e059d18da6620747f074f7efb9ec0fd695a314)]:
+  - @chakra-ui/theme-tools@2.1.1
+  - @chakra-ui/anatomy@2.2.1
+
+## 3.2.0
+
+### Minor Changes
+
+- [#7756](https://github.com/chakra-ui/chakra-ui/pull/7756)
+  [`119a52932`](https://github.com/chakra-ui/chakra-ui/commit/119a52932dcca3a74b469ae05dabb8bfec788dfe)
+  Thanks [@jrolfs](https://github.com/jrolfs)! - Move all `Input` size styles to
+  CSS variables and apply them to both the `field` part and the new `group` part
+  so that said variables are available to both the field and elements/addons
+  within an `InputGroup`.
+
+- [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - To improve support
+  for the App Router, all components and hooks are exported with the
+  `"use client"` directive.
+
+### Patch Changes
+
+- [#7854](https://github.com/chakra-ui/chakra-ui/pull/7854)
+  [`f65421e18`](https://github.com/chakra-ui/chakra-ui/commit/f65421e1892f94155ba1fac58844d7641c40f009)
+  Thanks [@TylerAPfledderer](https://github.com/TylerAPfledderer)! - Revert
+  `getColorVar` usage to `getColor`
+
+- [#7791](https://github.com/chakra-ui/chakra-ui/pull/7791)
+  [`d6036930a`](https://github.com/chakra-ui/chakra-ui/commit/d6036930a68dbc62b13ab1fec9658ffdf5d1243d)
+  Thanks [@Mitelak](https://github.com/Mitelak)! - Allow styling `MenuIcon` as
+  part of `Menu` theme
+
+- Updated dependencies
+  [[`d6036930a`](https://github.com/chakra-ui/chakra-ui/commit/d6036930a68dbc62b13ab1fec9658ffdf5d1243d),
+  [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6),
+  [`119a52932`](https://github.com/chakra-ui/chakra-ui/commit/119a52932dcca3a74b469ae05dabb8bfec788dfe)]:
+  - @chakra-ui/anatomy@2.2.0
+  - @chakra-ui/theme-tools@2.1.0
+
+## 3.1.2
+
+### Patch Changes
+
+- [#7590](https://github.com/chakra-ui/chakra-ui/pull/7590)
+  [`9d0b311b1`](https://github.com/chakra-ui/chakra-ui/commit/9d0b311b1353453abfd53ab27e22d5b2cd7711bb)
+  Thanks [@dvartic](https://github.com/dvartic)! - Add explicit color attribute
+  on buttons to ensure consistency across light and dark modes.
+
+  **🚨 Potentially Breaking Change 🚨 **
+
+  If your button component code relies on inheriting color on buttons, consider
+  adding an explicit color.
+
+- [#7671](https://github.com/chakra-ui/chakra-ui/pull/7671)
+  [`c6d523ced`](https://github.com/chakra-ui/chakra-ui/commit/c6d523ced6bc78207aab708b0b483ff96aacf314)
+  Thanks [@kashikarparth](https://github.com/kashikarparth)! - Fix issue where
+  excess label looks inconsistent with the avatar initials for `xs` and `2xs`
+  sizes
+
+- [`16c0ab7ec`](https://github.com/chakra-ui/chakra-ui/commit/16c0ab7ecca6078a24c0f0b054ab0c95d1b0771b)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Refactor input
+  theme to use css var instead of resolving to raw value
+
+- Updated dependencies
+  [[`16c0ab7ec`](https://github.com/chakra-ui/chakra-ui/commit/16c0ab7ecca6078a24c0f0b054ab0c95d1b0771b)]:
+  - @chakra-ui/theme-tools@2.0.18
+
 ## 3.1.1
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/theme-tools",
-  "version": "2.0.17",
+  "version": "2.1.1",
   "description": "Set of helpers that makes theming and styling easier",
   "keywords": [
     "theme",
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@chakra-ui/anatomy": "workspace:*",
-    "color2k": "^2.0.0",
+    "color2k": "^2.0.2",
     "@chakra-ui/shared-utils": "workspace:*"
   },
   "peerDependencies": {
@@ -52,11 +52,11 @@
   },
   "clean-package": "../../../clean-package.config.json",
   "tsup": {
-    "clean": true,
-    "target": "es2019",
     "format": [
       "cjs",
       "esm"
-    ]
+    ],
+    "target": "es2019",
+    "sourcemap": true
   }
 }

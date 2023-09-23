@@ -1,5 +1,43 @@
 # Change Log
 
+## 2.1.1
+
+### Patch Changes
+
+- [#7936](https://github.com/chakra-ui/chakra-ui/pull/7936)
+  [`58e059d18`](https://github.com/chakra-ui/chakra-ui/commit/58e059d18da6620747f074f7efb9ec0fd695a314)
+  Thanks [@yukukotani](https://github.com/yukukotani)! - Remove "use client"
+  directive since they are pure JS packages.
+
+- Updated dependencies
+  [[`58e059d18`](https://github.com/chakra-ui/chakra-ui/commit/58e059d18da6620747f074f7efb9ec0fd695a314)]:
+  - @chakra-ui/anatomy@2.2.1
+
+## 2.1.0
+
+### Minor Changes
+
+- [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - To improve support
+  for the App Router, all components and hooks are exported with the
+  `"use client"` directive.
+
+### Patch Changes
+
+- Updated dependencies
+  [[`d6036930a`](https://github.com/chakra-ui/chakra-ui/commit/d6036930a68dbc62b13ab1fec9658ffdf5d1243d),
+  [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6),
+  [`119a52932`](https://github.com/chakra-ui/chakra-ui/commit/119a52932dcca3a74b469ae05dabb8bfec788dfe)]:
+  - @chakra-ui/anatomy@2.2.0
+
+## 2.0.18
+
+### Patch Changes
+
+- [`16c0ab7ec`](https://github.com/chakra-ui/chakra-ui/commit/16c0ab7ecca6078a24c0f0b054ab0c95d1b0771b)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add `getColorVar`
+  function to get color css variable from theme object
+
 ## 2.0.17
 
 ### Patch Changes

@@ -1,5 +1,42 @@
 # Change Log
 
+## 3.2.0
+
+### Minor Changes
+
+- [`3aaf0c3b1`](https://github.com/chakra-ui/chakra-ui/commit/3aaf0c3b19c64cdae29ac1893d199049cc4133ed)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - **[POTENTIAL
+  BREAKING CHANGE]** Remove export defaults and favor of named exports.
+
+  ```diff
+  - import theme from "@chakra-ui/theme"
+  + import { theme } from "@chakra-ui/theme"
+  ```
+
+  ```diff
+  - import Icon from "@chakra-ui/icon"
+  + import { Icon } from "@chakra-ui/icon"
+  ```
+
+  ```diff
+  - import CSSReset from "@chakra-ui/css-reset"
+  + import { CSSReset } from "@chakra-ui/css-reset"
+  ```
+
+  ```diff
+  - import VisuallyHidden from "@chakra-ui/visually-hidden"
+  + import { VisuallyHidden } from "@chakra-ui/visually-hidden"
+  ```
+
+## 3.1.0
+
+### Minor Changes
+
+- [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - To improve support
+  for the App Router, all components and hooks are exported with the
+  `"use client"` directive.
+
 ## 3.0.16
 
 ### Patch Changes

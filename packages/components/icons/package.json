@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/icons",
-  "version": "2.0.19",
+  "version": "2.1.1",
   "description": "Chakra UI icons",
   "author": "Segun Adebayo <sage@adebayosegun.com>",
   "homepage": "https://github.com/chakra-ui/chakra-ui#readme",
@@ -26,10 +26,10 @@
     "react": ">=18"
   },
   "devDependencies": {
-    "@types/react": "^18.0.30",
+    "@types/react": "^18.2.20",
     "@chakra-ui/system": "workspace:*",
     "@chakra-ui/layout": "workspace:*",
-    "react": "^18.0.0",
+    "react": "^18.2.0",
     "clean-package": "2.2.0"
   },
   "dependencies": {
@@ -45,13 +45,5 @@
     "postpack": "clean-package restore",
     "typedocs": "tsx ../../../scripts/generate-type-docs.ts"
   },
-  "clean-package": "../../../clean-package.config.json",
-  "tsup": {
-    "clean": true,
-    "target": "es2019",
-    "format": [
-      "cjs",
-      "esm"
-    ]
-  }
+  "clean-package": "../../../clean-package.config.json"
 }

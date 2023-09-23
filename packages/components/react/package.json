@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/react",
-  "version": "2.6.1",
+  "version": "2.8.1",
   "description": "Responsive and accessible React UI components built with React and Emotion",
   "main": "src/index.ts",
   "files": [
@@ -45,6 +45,7 @@
     "@chakra-ui/react-env": "workspace:*",
     "@chakra-ui/select": "workspace:*",
     "@chakra-ui/skeleton": "workspace:*",
+    "@chakra-ui/skip-nav": "workspace:*",
     "@chakra-ui/slider": "workspace:*",
     "@chakra-ui/spinner": "workspace:*",
     "@chakra-ui/stat": "workspace:*",
@@ -96,11 +97,11 @@
     "url": "https://storybook.chakra-ui.com"
   },
   "devDependencies": {
-    "@emotion/react": "^11.11.0",
+    "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "framer-motion": "^6.2.9",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "framer-motion": "^10.16.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "clean-package": "2.2.0"
   },
   "scripts": {
@@ -112,13 +113,5 @@
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
-  "clean-package": "../../../clean-package.config.json",
-  "tsup": {
-    "clean": true,
-    "target": "es2019",
-    "format": [
-      "cjs",
-      "esm"
-    ]
-  }
+  "clean-package": "../../../clean-package.config.json"
 }

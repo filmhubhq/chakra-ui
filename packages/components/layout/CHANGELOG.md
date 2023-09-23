@@ -1,5 +1,62 @@
 # Change Log
 
+## 2.3.1
+
+### Patch Changes
+
+- Updated dependencies
+  [[`3aaf0c3b1`](https://github.com/chakra-ui/chakra-ui/commit/3aaf0c3b19c64cdae29ac1893d199049cc4133ed)]:
+  - @chakra-ui/icon@3.2.0
+
+## 2.3.0
+
+### Minor Changes
+
+- [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - To improve support
+  for the App Router, all components and hooks are exported with the
+  `"use client"` directive.
+
+### Patch Changes
+
+- Updated dependencies
+  [[`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)]:
+  - @chakra-ui/icon@3.1.0
+  - @chakra-ui/react-context@2.1.0
+
+## 2.2.0
+
+### Minor Changes
+
+- [`c31df5a4b`](https://github.com/chakra-ui/chakra-ui/commit/c31df5a4bf5077f6f008b3ff27247d81e2402cf1)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - - Add new
+  `Indicator` layout component. Useful for positioning an element in the corners
+  of another element.
+
+  For example, let's say you want to position a notification badge in the top
+  end corner of a box. You can use the `Indicator` component to achieve this.
+
+  ```jsx live=false
+  <Box position="relative" width="80px" height="80px" bg="gray.50">
+    <Indicator placement="top-end">
+      <Circle size="5" bg="red.100">
+        3
+      </Circle>
+    </Indicator>
+  </Box>
+  ```
+
+  - Refactored the `Stack` and `Wrap` components to use the flex gap instead of
+    the owl selector `& > * ~ *` for spacing.
+
+    This fixes an issue where you can't use raw text nodes as a child of the
+    `Stack` or `Wrap` component.
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @chakra-ui/icon@3.0.16
+
 ## 2.1.19
 
 ### Patch Changes

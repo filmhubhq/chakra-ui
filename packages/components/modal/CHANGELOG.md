@@ -1,5 +1,51 @@
 # Change Log
 
+## 2.3.1
+
+### Patch Changes
+
+- [#7962](https://github.com/chakra-ui/chakra-ui/pull/7962)
+  [`eb477b6e8`](https://github.com/chakra-ui/chakra-ui/commit/eb477b6e88171e371d113aeda5614ba29423f80f)
+  Thanks [@backy22](https://github.com/backy22)! - Added "slideInTop" and
+  "slideInLeft" options in `motionPreset` prop in modal component
+- Updated dependencies []:
+  - @chakra-ui/transition@2.1.0
+  - @chakra-ui/close-button@2.1.1
+
+## 2.3.0
+
+### Minor Changes
+
+- [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - To improve support
+  for the App Router, all components and hooks are exported with the
+  `"use client"` directive.
+
+### Patch Changes
+
+- Updated dependencies
+  [[`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)]:
+  - @chakra-ui/close-button@2.1.0
+  - @chakra-ui/focus-lock@2.1.0
+  - @chakra-ui/transition@2.1.0
+  - @chakra-ui/react-use-merge-refs@2.1.0
+  - @chakra-ui/portal@2.1.0
+  - @chakra-ui/react-context@2.1.0
+
+## 2.2.12
+
+### Patch Changes
+
+- [#7338](https://github.com/chakra-ui/chakra-ui/pull/7338)
+  [`0167b68a8`](https://github.com/chakra-ui/chakra-ui/commit/0167b68a8981aae49cd60137da5d494d48d62a57)
+  Thanks [@bertho-zero](https://github.com/bertho-zero)! - Exports
+  `modalManager` and returns the index of the modal from `useModal` to allow
+  creating custom components similar to modals
+- Updated dependencies
+  [[`148c66bc6`](https://github.com/chakra-ui/chakra-ui/commit/148c66bc6df249230e29322747cda9a6e802e15f)]:
+  - @chakra-ui/focus-lock@2.0.17
+  - @chakra-ui/close-button@2.0.17
+
 ## 2.2.11
 
 ### Patch Changes

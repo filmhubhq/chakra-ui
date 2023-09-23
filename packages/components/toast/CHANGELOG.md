@@ -1,5 +1,62 @@
 # Change Log
 
+## 7.0.1
+
+### Patch Changes
+
+- Updated dependencies
+  [[`58e059d18`](https://github.com/chakra-ui/chakra-ui/commit/58e059d18da6620747f074f7efb9ec0fd695a314),
+  [`6526e9be8`](https://github.com/chakra-ui/chakra-ui/commit/6526e9be8adce074cfbfca03bd765aff4eb8914a),
+  [`3aaf0c3b1`](https://github.com/chakra-ui/chakra-ui/commit/3aaf0c3b19c64cdae29ac1893d199049cc4133ed)]:
+  - @chakra-ui/theme@3.3.0
+  - @chakra-ui/system@2.6.1
+  - @chakra-ui/alert@2.2.1
+  - @chakra-ui/close-button@2.1.1
+
+## 7.0.0
+
+### Minor Changes
+
+- [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - To improve support
+  for the App Router, all components and hooks are exported with the
+  `"use client"` directive.
+
+### Patch Changes
+
+- [`0d99f5180`](https://github.com/chakra-ui/chakra-ui/commit/0d99f51805a7e8b4d6ec715c5249683d27067a42)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fix issue where
+  toast provider region doesn't have a label
+
+- Updated dependencies
+  [[`119a52932`](https://github.com/chakra-ui/chakra-ui/commit/119a52932dcca3a74b469ae05dabb8bfec788dfe),
+  [`f65421e18`](https://github.com/chakra-ui/chakra-ui/commit/f65421e1892f94155ba1fac58844d7641c40f009),
+  [`d6036930a`](https://github.com/chakra-ui/chakra-ui/commit/d6036930a68dbc62b13ab1fec9658ffdf5d1243d),
+  [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)]:
+  - @chakra-ui/theme@3.2.0
+  - @chakra-ui/close-button@2.1.0
+  - @chakra-ui/react-use-update-effect@2.1.0
+  - @chakra-ui/portal@2.1.0
+  - @chakra-ui/react-use-timeout@2.1.0
+  - @chakra-ui/alert@2.2.0
+  - @chakra-ui/react-context@2.1.0
+  - @chakra-ui/system@2.6.0
+
+## 6.1.4
+
+### Patch Changes
+
+- Updated dependencies
+  [[`9d0b311b1`](https://github.com/chakra-ui/chakra-ui/commit/9d0b311b1353453abfd53ab27e22d5b2cd7711bb),
+  [`c6d523ced`](https://github.com/chakra-ui/chakra-ui/commit/c6d523ced6bc78207aab708b0b483ff96aacf314),
+  [`16c0ab7ec`](https://github.com/chakra-ui/chakra-ui/commit/16c0ab7ecca6078a24c0f0b054ab0c95d1b0771b),
+  [`38acfe89c`](https://github.com/chakra-ui/chakra-ui/commit/38acfe89c5d1f1edc67bbc44e2edd38980ca3e08)]:
+  - @chakra-ui/theme@3.1.2
+  - @chakra-ui/styled-system@2.9.1
+  - @chakra-ui/system@2.5.8
+  - @chakra-ui/alert@2.1.0
+  - @chakra-ui/close-button@2.0.17
+
 ## 6.1.3
 
 ### Patch Changes

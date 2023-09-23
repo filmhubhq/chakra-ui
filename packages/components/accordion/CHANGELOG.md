@@ -1,5 +1,50 @@
 # Change Log
 
+## 2.3.1
+
+### Patch Changes
+
+- Updated dependencies
+  [[`3aaf0c3b1`](https://github.com/chakra-ui/chakra-ui/commit/3aaf0c3b19c64cdae29ac1893d199049cc4133ed)]:
+  - @chakra-ui/icon@3.2.0
+  - @chakra-ui/descendant@3.1.0
+  - @chakra-ui/transition@2.1.0
+
+## 2.3.0
+
+### Minor Changes
+
+- [`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - To improve support
+  for the App Router, all components and hooks are exported with the
+  `"use client"` directive.
+
+### Patch Changes
+
+- Updated dependencies
+  [[`754d9d4f4`](https://github.com/chakra-ui/chakra-ui/commit/754d9d4f48b4fef8d38cb1d5e342f3776d18e7c6)]:
+  - @chakra-ui/react-use-controllable-state@2.1.0
+  - @chakra-ui/descendant@3.1.0
+  - @chakra-ui/transition@2.1.0
+  - @chakra-ui/react-use-merge-refs@2.1.0
+  - @chakra-ui/icon@3.1.0
+  - @chakra-ui/react-context@2.1.0
+
+## 2.2.0
+
+### Minor Changes
+
+- [#7631](https://github.com/chakra-ui/chakra-ui/pull/7631)
+  [`2347e3306`](https://github.com/chakra-ui/chakra-ui/commit/2347e33068259319968b1b63bbbeba4934e8c99c)
+  Thanks [@FredPerr](https://github.com/FredPerr)! - Fixed AccordionIconProps
+  failure with 'as' prop
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @chakra-ui/descendant@3.0.14
+  - @chakra-ui/icon@3.0.16
+
 ## 2.1.11
 
 ### Patch Changes
